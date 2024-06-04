@@ -1,0 +1,16 @@
+<!-- @format -->
+
+<h1>this is the count page</h1>
+<h2>you are having {{len_of_text}} words in {{fulltext}}</h2>
+
+<a href="{% url 'home' %}">Click here to start again !!!!!!!!!!!!!!!</a>
+<h2>below is your vocab with frequency</h2>
+<div id="box"></div>
+<ul>
+{% for word,count in word_dic %}
+<li><h3>{{word}} : {{count}}</h3></li>
+
+
+{% endfor %}
+</ul>
+
