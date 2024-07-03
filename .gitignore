@@ -16,3 +16,8 @@ node_modules
 # Ignore pycache 
 *.pycache
 *.pyc
+*.log
+*.pot
+__pycache__/
+local_settings.pyc
+/static/
